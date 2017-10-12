@@ -1,0 +1,30 @@
+{
+    "name": "yannsun/douban-sdk-php",
+    "description": "Sdk of PHP for Douban.com 豆瓣SDK",
+    "keywords": [
+        "douban",
+        "douban-sdk",
+        "sdk"
+    ],
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yannsun",
+            "email": "sunjinliang1992@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DoubanSDK\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DoubanSDK\\Tests\\": "tests/"
+        }
+    }
+}
